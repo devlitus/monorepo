@@ -8,14 +8,16 @@ const app = express();
 app.use(express.json());
 
 // Routes
-app.use('/users', userRoutes);
+app.use('/api', userRoutes);
 
 
 // Error handling middleware
-// app.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
-//   console.error(err);
-//   res.status(500).json({ error: 'Internal Server Error' });
-// });
+app.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  console.error(err);
+  console.log('Error handler', req);
+  res.status(500).json({ error: 'Internal Server Error' });
+  next();
+});
 
 // Start the server
 const port = process.env.PORT || 3000;

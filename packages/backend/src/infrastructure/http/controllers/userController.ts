@@ -1,7 +1,5 @@
 import { GetAllUsersUseCase } from "../../../application/use_cases/GetAllUsersUseCase";
 
-
-
 export class UserController {
   private getAllUsersUseCase: GetAllUsersUseCase;
 
@@ -11,8 +9,9 @@ export class UserController {
 
   async getAllUsers() {
     try {
-      const users = await this.getAllUsersUseCase.execute();
-      console.log(users);
+      const user  = await this.getAllUsersUseCase.execute();
+      console.log(user);
+      return user;
     } catch (error) {
       console.error(error);
     }
