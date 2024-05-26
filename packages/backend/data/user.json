@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Pérez",
+    "correo": "ana.perez@example.com",
+    "telefono": "+34 600 123 456",
+    "direccion": "Calle Falsa 123, Madrid, España",
+    "edad": 29
+  },
+  {
+    "id": 2,
+    "nombre": "Luis García",
+    "correo": "luis.garcia@example.com",
+    "telefono": "+34 600 234 567",
+    "direccion": "Avenida Siempreviva 742, Barcelona, España",
+    "edad": 35
+  },
+  {
+    "id": 3,
+    "nombre": "María López",
+    "correo": "maria.lopez@example.com",
+    "telefono": "+34 600 345 678",
+    "direccion": "Plaza Mayor 5, Valencia, España",
+    "edad": 27
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos Fernández",
+    "correo": "carlos.fernandez@example.com",
+    "telefono": "+34 600 456 789",
+    "direccion": "Calle de la Paz 10, Sevilla, España",
+    "edad": 42
+  },
+  {
+    "id": 5,
+    "nombre": "Elena Martínez",
+    "correo": "elena.martinez@example.com",
+    "telefono": "+34 600 567 890",
+    "direccion": "Gran Vía 20, Bilbao, España",
+    "edad": 31
+  },
+  {
+    "id": 6,
+    "nombre": "José Sánchez",
+    "correo": "jose.sanchez@example.com",
+    "telefono": "+34 600 678 901",
+    "direccion": "Ronda de Toledo 22, Toledo, España",
+    "edad": 38
+  },
+  {
+    "id": 7,
+    "nombre": "Lucía Gómez",
+    "correo": "lucia.gomez@example.com",
+    "telefono": "+34 600 789 012",
+    "direccion": "Avenida de América 15, Zaragoza, España",
+    "edad": 24
+  },
+  {
+    "id": 8,
+    "nombre": "Miguel Torres",
+    "correo": "miguel.torres@example.com",
+    "telefono": "+34 600 890 123",
+    "direccion": "Calle de Alcalá 50, Málaga, España",
+    "edad": 36
+  },
+  {
+    "id": 9,
+    "nombre": "Sara Ruiz",
+    "correo": "sara.ruiz@example.com",
+    "telefono": "+34 600 901 234",
+    "direccion": "Paseo de la Castellana 85, Madrid, España",
+    "edad": 28
+  },
+  {
+    "id": 10,
+    "nombre": "David Ramírez",
+    "correo": "david.ramirez@example.com",
+    "telefono": "+34 600 012 345",
+    "direccion": "Calle de Velázquez 30, Granada, España",
+    "edad": 33
+  }
+]

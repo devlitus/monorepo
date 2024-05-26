@@ -1,0 +1,11 @@
+node_modules/
+tsconfig.json
+pnpm-lock.yaml
+package.json
+packages/backend/package.json
+.eslintrc.json
+.prettierrc
+.swcrc
+jest.config.js
+pnpm-workspace.yaml
+README.md
