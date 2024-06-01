@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start:backend": "pnpm --filter backend run dev",
     "start:frontend": "pnpm --filter frontend run dev",
@@ -14,16 +15,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/eslintrc": "3.1.0",
-    "@typescript-eslint/eslint-plugin": "7.10.0",
-    "@typescript-eslint/parser": "7.10.0",
+    "@eslint/js": "9.4.0",
+    "@types/eslint__js": "8.42.3",
     "eslint": "9.3.0",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.1.3",
     "global": "4.4.0",
     "prettier": "3.2.5",
     "ts-jest": "29.1.3",
     "ts-node": "10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "7.11.0"
   }
 }
