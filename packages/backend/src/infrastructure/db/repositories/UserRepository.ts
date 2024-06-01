@@ -3,7 +3,8 @@ import path from 'node:path';
 
 export class UserRepository {
   async getAllUsers() {
-    const users = fs.readFileSync(path.resolve(__dirname, 'data/users.json'), 'utf-8');
+    const users = await fs.readFile(path.resolve(__dirname, 'data/users.json'), 'utf-8');
+    console.log('users', users);
     return JSON.parse(users);
   }
 }
